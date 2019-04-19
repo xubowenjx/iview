@@ -51,6 +51,11 @@ export declare interface LoadingBarConfig {
    * @default 2
    */
   height?: number;
+  /**
+   * 自动消失的延时, 默认为800ms
+   * @default 800
+   */
+  duration?: number;
 }
 
 declare module 'vue/types/vue' {
